@@ -10,7 +10,7 @@
 #
 
 pkgname=zfs-dkms-git
-pkgver=2.3.99.r162.g788e69ca5d
+pkgver=2.3.99.r330.gc17bdc4914
 pkgrel=1
 epoch=2
 pkgdesc="Kernel modules for the Zettabyte File System."
@@ -27,9 +27,9 @@ conflicts=('zfs-dkms')
 source=("git+https://github.com/openzfs/zfs.git"
         "0001-only-build-the-module-in-dkms.conf.patch")
 sha256sums=('SKIP'
-            '3039da5ecb6fe5f7dbaab8492f73d59bcafb8b22bd267f9d72a3ce5e70f82113')
+            '7accc040bcd7bece85ff6b39c5f08363900f1a0e982b4b51a0bfcb7daeaffaa2')
 b2sums=('SKIP'
-        '26f28e841aafab9855791f2de45525ce26edd11a83d7e7bd7cc2f699bdba5dd8fd810827fba58365f655fdacd8a0f4f1febb1b339c17a7c4b3d498fb333ef6ac')
+        'a27b6d809d5e76b8bea504f908efa98fd7d7145a0e91786d496989b03bb69927f9cc4f92c61f7a73d00e9e1da92a9233b6d643f24b4d08c9d60e9e13d029a154')
 
 pkgver() {
     cd zfs
